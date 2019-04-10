@@ -11,9 +11,9 @@ in
 
 with coqPackages;
 
-pkgs.stdenv.mkDerivation {
+coq.ocamlPackages.buildDunePackage {
 
-  name = "huffman";
+  pname = "huffman";
 
   propagatedBuildInputs = [
     coq
@@ -21,5 +21,4 @@ pkgs.stdenv.mkDerivation {
 
   src = if shell then null else ./.;
 
-  installFlags = "COQLIB=$(out)/lib/coq/${coq.coq-version}/";
 }

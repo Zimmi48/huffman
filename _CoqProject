@@ -1,4 +1,4 @@
--Q theories Huffman
+-Q _build/install/default/lib/coq/user-contrib/Huffman/ Huffman
 
 -arg -w -arg +default
 -arg -w -arg -auto-template

@@ -1,0 +1,5 @@
+(coqlib
+ (name Huffman)
+ (public_name huffman.Huffman)
+ (synopsis "A Coq proof of the correctness of the Huffman coding algorithm")
+)
